@@ -7,15 +7,14 @@ var blue = [0, 0, 120];
 var purple = [102, 0, 180];
 var letterColors = [red, orange, green, blue, purple];
 
+if(15 > 5) {
+    bubbleShape = "circle";
+}
+
+else {
+    bubbleShape = "square";
+}
+
 drawName(myName, letterColors);
-
-if(10 < 3)
-{
-    bubbleShape = 'square';
-}
-else
-{
-    bubbleShape = 'circle';
-}
-
-bounceBubbles();
+bounceBubbles()
+)
