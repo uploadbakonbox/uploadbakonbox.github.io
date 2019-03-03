@@ -156,8 +156,8 @@ function initEventListeners() {
  
 function updateCanvasDimensions() {
     canvas.attr({
-        height: 400,
-        width: 800
+        height: 500,
+        width: 1000
     });
     canvasWidth = canvas.width();
     canvasHeight = canvas.height();
@@ -310,11 +310,5 @@ var orange = [40, 100, 60];
 var green = [75, 100, 40];
 var blue = [196, 77, 55];
 var purple = [280, 50, 60];
-var red = [80, 0, 0];
-var orange = [80, 15, 0];
-var green = [0, 80, 0];
-var blue = [0, 0, 80];
-var purple = [35, 0, 80];
-
-
+ 
 setTimeout(updateCanvasDimensions, 30);
