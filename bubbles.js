@@ -303,13 +303,4 @@ var pointCollection;
 document.rotationForce = 0.0;
 document.Friction = 0.85;
 
-var white = [0, 0, 100];
-var black = [0, 0, 27];
-var red = [80, 0, 0];
-var orange = [80, 15, 0];
-var green = [0, 80, 0];
-var blue = [0, 0, 80];
-var purple = [35, 0, 80];
- 
-
 setTimeout(updateCanvasDimensions, 30);
