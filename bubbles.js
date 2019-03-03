@@ -241,7 +241,7 @@ function drawName(name, letterColors) {
             }
         } else {
             // if undefined set black
-            letterColors = [[0, 0, 27]];
+            letterColors = [[222, 222 , 222]];
         }
  
         if (document.alphabet.hasOwnProperty(cc_hex)) {
@@ -299,7 +299,13 @@ var canvasHeight;
 var canvasWidth;
 var ctx;
 var pointCollection;
- 
+
+var c1 = [222, 222, 222];
+var c2 = [222, 222, 222];
+var c3 = [222, 222, 222];
+var c4 = [222, 222, 222];
+var c5 = [222, 222, 222];
+
 document.rotationForce = 0.0;
 document.Friction = 0.85;
 
