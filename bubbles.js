@@ -312,10 +312,4 @@ var blue = [0, 0, 80];
 var purple = [35, 0, 80];
  
 
-
-
-
-
-
-
 setTimeout(updateCanvasDimensions, 30);
