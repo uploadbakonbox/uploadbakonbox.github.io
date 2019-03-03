@@ -1,7 +1,7 @@
 var myName = "Mr. Watson";
 
 var red = [80, 0, 0];
-var orange = [150, 40, 0];
+var orange = [80, 15, 0];
 var green = [0, 80, 0];
 var blue = [0, 0, 80];
 var purple = [35, 0, 80];
