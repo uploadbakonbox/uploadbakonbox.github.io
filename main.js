@@ -1,10 +1,10 @@
 var myName = "Mr. Watson";
 
-var red = [0, 0, 0];
-var orange = [0, 0, 0];
-var green = [0, 0, 0];
-var blue = [0, 0, 0];
-var purple = [0, 0, 0];
+var red = [255, 255, 255];
+var orange = [255, 255, 255];
+var green = [255, 255, 255];
+var blue = [255, 255, 255];
+var purple = [255, 255, 255];
 var letterColors = [red, orange, green, blue, purple];
 
 drawName(myName, letterColors);
